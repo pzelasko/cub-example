@@ -1,5 +1,4 @@
 #include <iostream>
-
 #include "cub/util_allocator.cuh"
 
 cub::CachingDeviceAllocator  g_allocator(true);
